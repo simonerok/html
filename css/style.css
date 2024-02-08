@@ -1,0 +1,58 @@
+@import 'variables.css'; 
+*{
+    margin: 0 auto;
+    padding: 0;   
+}
+
+body {
+    font-family: var(--fontDefault);
+    background-color: var(--bgColor);
+}
+
+
+h1{
+    color: var(--colorHeader);
+    font-family: var(--fontHeaderFooter);
+}
+
+footer{
+    color: var(--colorFooter);
+    font-family: var(--fontHeaderFooter);
+}
+
+header > h1{
+    padding-inline: 2rem;
+}
+
+h1, footer{
+    background-color: var(--secondaryBgColor);
+    padding-block: 1rem;
+}
+
+/* target all paragraph that are direct children */
+article > p{
+    /* justify alignt to the left and right */
+    text-align: justify;
+}
+
+
+/* MENU */
+nav{
+    padding-block: 0.25rem;
+    padding-inline: 2rem;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+    padding-block: 1rem;
+}
+
+nav li > a{
+text-decoration: none;
+
+}
+
+section, article{
+    margin: 1rem; 
+}

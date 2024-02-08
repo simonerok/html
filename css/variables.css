@@ -1,0 +1,14 @@
+:root{
+
+    /* COLORS */
+    --colorHeader: floralWhite; 
+    --colorFooter: rgb(211, 215, 222); 
+
+   /* FONTS */
+   --fontDefault:  Helvetica, Arial, sans-serif;
+   --fontHeaderFooter: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   /* Background */
+     --bgColor: rgba(193, 193, 208, 0.757);  
+     --secondaryBgColor: rgba(73, 73, 90, 0.757);
+}

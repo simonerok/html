@@ -74,7 +74,24 @@ productDescription.innerText = product.desc;
 
 productArticle.appendChild(productHeader);
 productArticle.appendChild(productDescription);
+productArticle.addEventListener("click", function(){
+ /* alert("you cliked on a product" + " " + product.title) */
+document.querySelector("#productModal h2").innerHTML = product.title;
+document.querySelector("#desc p").innerHTML = product.desc;
+document.querySelector("#price p").innerHTML = product.price;
+document.querySelector("#categori p").innerHTML = product.categori;
+document.querySelector("#rate p").innerHTML = product.rating.rate;
+document.querySelector("#count p").innerHTML = product.rating.count;
+});
+
+
 productInfo.appendChild(productArticle);
+
 }
 
-document.querySelector("main").appendChild(productInfo); 
+document.querySelector("#home").appendChild(productInfo); 
+
+
+
+
+

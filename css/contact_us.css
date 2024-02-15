@@ -1,0 +1,13 @@
+fieldset{
+    padding: 1rem;
+    border: none;
+    border-top: thin solid var(--secondaryBgColor);
+}
+
+legend{
+    padding: 0 0.5rem;
+}
+
+form, address{
+    margin: 1rem; 
+}

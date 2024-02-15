@@ -1,0 +1,8 @@
+section, article{
+    margin: 1rem; 
+}
+
+/* css hacks */
+#price:after{
+content: " DKK"
+}

@@ -4,11 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact_us.css">
     <!-- defer means that the js dosnt get loaded untill the whole page has loaded first -->
     <script src="./js/script.js" defer></script>
     <title>Webshop</title>
 </head>
 <body>
-    
+    <header>
+       <h1> KEA Webshop</h1>
+        <nav>
+            <ul>
+                <li> <a href="index.html" title="Home">HOME</a></li>
+                <li> <a href="About.html" title="About">ABOUT US</a></li>
+                <li> <a href="Contact.html" title="Contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+   <main>
+       <address>
+            <div>Guldbergsgade 29N</div>
+            <div>2200 København Ø</div>
+        </address> 
+    <form action="">
+       <fieldset>
+        <legend> form </legend>
+            <div>
+                <label for="text_name">Name</label>
+                <input type="text" id="text_name">
+            </div>
+            <div>
+                <label for="text_email">E-mail adress</label>
+                <input type="text" id="text_email">
+            </div>
+            <div>
+                <label for="text_phone">Phone number</label>
+                <input type="text" id="text_phone">
+            </div>
+           <div>
+            <div>
+                <label for="text_comments">Comments</label>
+            </div>
+            <textarea name="" id="text_comments"></textarea>
+           </div>
+       </fieldset>
+    </form>
+   </main>
+
 </body>
 </html>

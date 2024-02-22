@@ -13,3 +13,19 @@ legend{
 form, address{
     margin: 1rem; 
 }
+
+input[type=submit]{
+    padding: 0.25rem 0.5rem;
+    border-radius: 1rem;
+    border: thin solid var(--secondaryBgColor);
+    background-color: var(--secondaryBgColor);
+    color: floralwhite;
+}
+
+label{
+    display: inline-block;
+    width: 8rem;
+}
+textarea{
+    width: 300px;
+}

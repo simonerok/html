@@ -24,26 +24,29 @@
             <div>Guldbergsgade 29N</div>
             <div>2200 København Ø</div>
         </address> 
-    <form action="">
+    <form id="formContact" action="processForm.php" method="POST">
        <fieldset>
         <legend> form </legend>
             <div>
                 <label for="text_name">Name</label>
-                <input type="text" id="text_name">
+                <input type="text" id="text_name" name="formName" required>
             </div>
             <div>
                 <label for="text_email">E-mail adress</label>
-                <input type="text" id="text_email">
+                <input type="email" id="text_email" name="formEmail" required>
             </div>
             <div>
                 <label for="text_phone">Phone number</label>
-                <input type="text" id="text_phone">
+                <input type="tel" id="text_phone" pattern="[0-9]{8}" name="formPhone" required>
             </div>
            <div>
             <div>
                 <label for="text_comments">Comments</label>
             </div>
-            <textarea name="" id="text_comments"></textarea>
+            <textarea name="formComments" id="text_comments" required></textarea>
+           </div>
+           <div>
+            <input type="submit" value="Send">
            </div>
        </fieldset>
     </form>
